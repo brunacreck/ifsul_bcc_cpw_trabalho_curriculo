@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu Currículo</title>
+    <!-- Incluir bootstrap em css -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos em css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <h1>Meu Currículo</h1>
+    <!-- Abas de navegação -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="dados-tab" data-toggle="tab" href="#dados" role="tab" aria-controls="dados" aria-selected="true">Dados Cadastrais</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="formacao-tab" data-toggle="tab" href="#formacao" role="tab" aria-controls="formacao" aria-selected="false">Formação</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="experiencia-tab" data-toggle="tab" href="#experiencia" role="tab" aria-controls="experiencia" aria-selected="false">Experiência Profissional</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="cursos-tab" data-toggle="tab" href="#cursos" role="tab" aria-controls="cursos" aria-selected="false">Cursos Complementares</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="idiomas-tab" data-toggle="tab" href="#idiomas" role="tab" aria-controls="idiomas" aria-selected="false">Idiomas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="outras-tab" data-toggle="tab" href="#outras" role="tab" aria-controls="outras" aria-selected="false">Outras Informações/Habilidades</a>
+        </li>
+    </ul>
+
+    <!-- Conteúdo das abas -->
+    <div class="tab-content mt-3" id="myTabContent">
+        <!-- Dados Cadastrais -->
+        <div class="tab-pane fade show active" id="dados" role="tabpanel" aria-labelledby="dados-tab">
+            <p><span class="label">Nome:</span> Bruna Castelani Reck</p>
+            <p><span class="label">E-mail:</span> brunacastelani@gmail.com</p>
+            <p><span class="label">Telefone:</span> (54) 981363352</p>
+            <p><span class="label">Endereço:</span> Rua Uruguai, 123 - Passo Fundo, RS</p>
+        </div>
+
+        <!-- Formação -->
+        <div class="tab-pane fade" id="formacao" role="tabpanel" aria-labelledby="formacao-tab">
+            <ul>
+                <li>Bacharelado em Ciência da Computação - IFSUL </li>
+                <li>Técnico em Informática - Escola Técnica Estadual</li>
+            </ul>
+        </div>
+
+        <!-- Experiência Profissional -->
+        <div class="tab-pane fade" id="experiencia" role="tabpanel" aria-labelledby="experiencia-tab">
+            <ul>
+                <li>Desenvolvedor Web - Empresa Linux (2019 - Presente)</li>
+                <li>Estagiário em TI - Empresa Windows (2017 - 2019)</li>
+            </ul>
+        </div>
+
+        <!-- Cursos Complementares -->
+        <div class="tab-pane fade" id="cursos" role="tabpanel" aria-labelledby="cursos-tab">
+            <ul>
+                <li>Curso de Web Design Avançado - Instituto de Tecnologia</li>
+                <li>Curso de Inglês Avançado - TuttiWell</li>
+            </ul>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="tab-pane fade" id="idiomas" role="tabpanel" aria-labelledby="idiomas-tab">
+            <p><span class="label">Inglês:</span> Avançado</p>
+            <p><span class="label">Espanhol:</span> Básico</p>
+        </div>
+
+        <!-- Outras Informações/Habilidades -->
+        <div class="tab-pane fade" id="outras" role="tabpanel" aria-labelledby="outras-tab">
+            <ul>
+                <li>Desenvolvimento de Aplicações Web</li>
+                <li>Conhecimento em Banco de Dados</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts necessários para o Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
